@@ -1,0 +1,165 @@
+.register {
+  background-image: url("../images/register-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  aspect-ratio: 1439 / 906;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.register__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 54rem;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.register__titel {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.08;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .register__titel {
+    font-size: 3.8rem;
+  }
+}
+.register__text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.33;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 4rem;
+}
+
+.register__input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 540px;
+  height: 56px;
+
+  background-color: #fff;
+}
+
+.register__input::placeholder {
+  font-family: "Stem", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.33;
+  color: rgba(0, 0, 0, 0.2);
+}
+.form__text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.33;
+  color: #fff;
+  margin-bottom: 1.6rem;
+}
+
+.radio__flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form__label {
+  font-family: "Stem", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0.04em;
+  line-height: 1.33;
+  color: #fff;
+
+  padding: 8px 0;
+  transition: all 0.3s;
+}
+
+.register-form__label:focus,
+.register-form__label:hover {
+  transform: scale(0.9);
+}
+
+.register__btn {
+  border-radius: 6px;
+  padding: 20px 40px;
+  max-width: 540px;
+  height: 56px;
+
+  background-color: #ff005a;
+
+  font-family: "Stem", sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.33;
+  text-align: center;
+  color: #fff;
+  border: none;
+  margin-top: 4.8rem;
+  margin-bottom: 2.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.register__btn:focus,
+.register__btn:hover {
+  transform: scale(0.9);
+}
+
+/* !-----------Стилізація радіокнопки START */
+.radio1,
+.radio2,
+.radio3 {
+  position: relative;
+}
+input[type="radio"] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.register-form__label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1.6rem;
+}
+
+.register-form__label::before {
+  content: " ";
+  display: inline-block;
+
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: transparent;
+
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="radio"]:checked + .register-form__label::before {
+  border-color: #ff005a;
+  box-shadow: 0 0 0 4px #ff005a inset;
+  background-color: #fff;
+}
+/* !-----------Стилізація радіокнопки END */
+.conditions__paragr {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.38;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}

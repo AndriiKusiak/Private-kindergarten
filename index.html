@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>Private kindergarten</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <header class="header open">
+      <nav class="header__menu">
+        <a class="logo" href="#home">Privet Kindergarten</a>
+        <button class="header__burger-btn" id="burger">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav__container">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#news">News</a>
+            </li>
+            <li class="nav__item"><a class="nav__link" href="#!">Help</a></li>
+            <li class="nav__item">
+              <a class="nav__link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+
+          <address>
+            <a class="nav__link" href="tel:+380979388601">+380-97-93-88-601</a>
+          </address>
+        </div>
+      </nav>
+      <!-- <div>
+        <img class="hero__img" src="./images/banner.png" alt="A little girl" />
+      </div> -->
+      <div class="flex-container hero-content">
+        <div class="content__wrap">
+          <h1 class="hero-titel">Private Kindergarten</h1>
+          <p class="hero__text">
+            We are an online university that teaches web design with guaranteed
+            employment.
+          </p>
+        </div>
+        <form action="#" class="hero-order">
+          <span
+            >Sign your child up for a trial lesson at our kindergarten.</span
+          >
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+          <button type="submit">Order</button>
+          <small>+ 50% discount for the first month of study</small>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="about__section" id="about">
+        <div class="about__flex">
+          <div class="about__content about__item">
+            <small>Our kindergarten</small>
+            <h2 class="about__titel">Bringing joy 365 days a year</h2>
+            <p>
+              Choosing a kindergarten for your child is always very difficult.
+              When opening this kindergarten, I asked myself one question:
+              &#171;Would I want to send my child here?&#187;
+            </p>
+            <p>
+              We have very kind professional teachers, advanced teaching and
+              development methods, a safe environment, and the highest quality
+              standards. Come visit our kindergarten!
+            </p>
+            <a href="#!" class="about__link">Read more</a>
+          </div>
+          <div class="about__item">
+            <img
+              class="about__img"
+              src="./images/about_01.jpg"
+              alt="Children"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="benefits" id="news">
+        <div class="benefits__container">
+          <div class="benefits__content">
+            <p class="benefits__subtitel">Benefits</p>
+            <h2 class="benefits__titel">Come to our garden</h2>
+            <p class="benefits__text">
+              For more than 5 years, we have been bringing joy to your children
+              and contributing to their development every day
+            </p>
+          </div>
+          <div class="benefits__flex">
+            <div class="benefits__card-container">
+              <img
+                class="benefits-icon"
+                src="./images/discount.svg"
+                alt="Percent Icon"
+              />
+              <h3 class="benefits__card-titel">Walking area</h3>
+              <p class="benefits__card-text">in the gated community</p>
+            </div>
+            <div class="benefits__card-container">
+              <img
+                class="benefits-icon"
+                src="./images/discount.svg"
+                alt="Percent Icon"
+              />
+              <h3 class="benefits__card-titel">Video surveillance</h3>
+              <p class="benefits__card-text">
+                Video surveillance: online, via the app
+              </p>
+            </div>
+            <div class="benefits__card-container">
+              <img
+                class="benefits-icon"
+                src="./images/discount.svg"
+                alt="Percent Icon"
+              />
+              <h3 class="benefits__card-titel">5 meals a day</h3>
+              <p class="benefits__card-text">
+                taking into account the individual characteristics of the child
+              </p>
+            </div>
+            <div class="benefits__card-container">
+              <img
+                class="benefits-icon"
+                src="./images/discount.svg"
+                alt="Percent Icon"
+              />
+              <h3 class="benefits__card-titel">Medical examination</h3>
+              <p class="benefits__card-text">
+                Morning filter by medical staff: daily
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quote__section">
+        <div class="quote__container">
+          <img src="./images/quote.png" alt="Quote" class="quote__img" />
+          <p class="quote__text">
+            Children immediately and naturally become happy, because they are,
+            by their very nature, joy and happiness.
+          </p>
+          <cite class="quote__author"> &#8722; Victor Hugo</cite>
+        </div>
+      </section>
+      <section class="extra-section">
+        <div class="extra__content">
+          <h2 class="extra__titel">Additional courses</h2>
+          <p class="extra__text">Bring your child to exciting classes</p>
+        </div>
+        <div class="extra__flex">
+          <div class="extra__card">
+            <img class="extra-img" src="./images/01.png" alt="Spiderman" />
+            <div class="extra-price">
+              <h3 class="extra__subtitel">Theater for kids</h3>
+              <span itemprop="price">&#36;350</span>
+            </div>
+          </div>
+          <div class="extra__card">
+            <img class="extra-img" src="./images/02.png" alt="Baby" />
+            <div class="extra-price">
+              <h3 class="extra__subtitel">For the little ones</h3>
+              <span itemprop="price">&#36;450</span>
+            </div>
+          </div>
+          <div class="extra__card">
+            <img
+              class="extra-img"
+              src="./images/03.png"
+              alt="Colored pencils"
+            />
+            <div class="extra-price">
+              <h3 class="extra__subtitel">Young artist</h3>
+              <span itemprop="price">&#36;350</span>
+            </div>
+          </div>
+          <div class="extra__card">
+            <img
+              class="extra-img"
+              src="./images/04.png"
+              alt="Small construction set"
+            />
+            <div class="extra-price">
+              <h3 class="extra__subtitel">Little Builder</h3>
+              <span itemprop="price">&#36;350</span>
+            </div>
+          </div>
+          <div class="extra__card">
+            <img class="extra-img" src="./images/05.png" alt="Children's toy" />
+            <div class="extra-price">
+              <h3 class="extra__subtitel">Junior Engineer</h3>
+              <span itemprop="price">&#36;405</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <div class="video__container">
+          <div class="video-btn">
+            <a href="./images/lesson-5.mp4" target="_blank"
+              ><img src="./images/play-btn.svg" alt="Play video button"
+            /></a>
+          </div>
+          <div class="video__flex">
+            <h2 class="video__titel">Video about our garden</h2>
+            <p class="video__text">
+              Look how well we work. How happy the children are <br />
+              and what a comfortable environment has been created for their
+              development
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="reviews__section" id="reviews">
+        <div class="reviews__container">
+          <div class="reviews__content">
+            <h2 class="rewies__titel">Reviews</h2>
+            <p class="reviews-text">
+              We would be grateful if you could take the time to write a review
+              about our kindergarten
+            </p>
+          </div>
+          <div class="reviews__flex">
+            <div class="reviews__card">
+              <img
+                src="./images/reviews_01_1.jpg"
+                alt="Yurii Stavnychii"
+                class="revies__img"
+              />
+              <p class="card-text">
+                This is a super cool tutorial, and you're doing something very
+                useful <img src="./images/smile.png" class="smile" />
+                <br />Thank you
+                <img class="heart" src="./images/pngwing.com.png" alt="" />
+              </p>
+              <cite class="card__author">Yurii Stavnychii</cite>
+              <span class="card__span">photographer</span>
+            </div>
+
+            <div class="reviews__card">
+              <img
+                src="./images/revies_02._2jpg.jpg"
+                alt="Alexandra Selezneva"
+                class="revies__img"
+              />
+              <p class="card-text">
+                Working with this service is a joy because of their high level
+                of professionalism, convenience, efficiency, and simply pleasant
+                people!
+              </p>
+              <cite class="card__author">Alexandra Selezneva</cite>
+              <span class="card__span">photographer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="register">
+        <div class="register__container">
+          <h2 class="register__titel">
+            Register your child for kindergarten online
+          </h2>
+          <p class="register__text">
+            Fill out the application now and we will contact you within 20 days
+          </p>
+          <form action="#" type="register" class="register__form">
+            <input
+              class="register__input"
+              type="text"
+              name=""
+              id="name1"
+              placeholder="Your name"
+            />
+            <input
+              class="register__input"
+              type="tel"
+              name="phone1"
+              id="phone1"
+              placeholder="Your phone"
+            />
+            <input
+              class="register__input"
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age of child"
+            />
+            <p class="form__text">What are you interested in:</p>
+            <div class="radio__flex">
+              <div class="radio1">
+                <input type="radio" name="conditions" id="daytime" checked />
+                <label for="daytime" class="register-form__label">
+                  Daytime visit</label
+                >
+              </div>
+              <div class="radio2">
+                <input type="radio" name="conditions" id="evening" />
+                <label for="evening" class="register-form__label"
+                  >Evening visit</label
+                >
+              </div>
+
+              <div class="radio3">
+                <input type="radio" name="conditions" id="service" />
+                <label for="service" class="register-form__label"
+                  >Additional services</label
+                >
+              </div>
+            </div>
+            <button class="register__btn" type="submit">Submit</button>
+            <p class="conditions__paragr">
+              By submitting your application, you consent to the processing of
+              your personal data
+            </p>
+          </form>
+        </div>
+      </section>
+      <section class="contacts__section" id="contacts">
+        <div class="contacts__container">
+          <div class="contacts__adress">
+            <h3 class="contacts__titel">Contacts</h3>
+            <address>
+              <div>
+                <a href="tel:+380979388601" class="contacts-phone"
+                  >+380-97-93-88-601</a
+                >
+                <a href="mailto:privet-garden@gmail.com" class="contacts__mail"
+                  >privet-garden@gmail.com</a
+                >
+              </div>
+              <p class="contacts__adr">
+                Ternopil, Rus`ka-str 15/11, <br />
+                Ukraine, 46001
+              </p>
+            </address>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.490291292971!2d25.588699199999997!3d49.5507715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473036b43491bd93%3A0xfbf15f9ed3d263f4!2z0LLRg9C70LjRhtGPINCg0YPRgdGM0LrQsCwgMTUsINCi0LXRgNC90L7Qv9GW0LvRjCwg0KLQtdGA0L3QvtC_0ZbQu9GM0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDQ2MDAy!5e0!3m2!1suk!2sua!4v1759163606718!5m2!1suk!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="partners__content">
+          <h2 class="partners__titel">Partners</h2>
+          <p class="parters__text">
+            The best companies in our city work with us. We greatly value <br />
+            our partners
+          </p>
+        </div>
+        <div class="partners__grid">
+          <img
+            src="./images/partner_01.png"
+            alt="Greens Food Sapliers"
+            width="255"
+            class="partners__img"
+          />
+          <img
+            src="./images/partner_02.png"
+            alt="Beauty Box"
+            class="partners__img"
+            width="255"
+          />
+          <img
+            src="./images/partner_03.png"
+            alt="The dance studio"
+            class="partners__img"
+            width="255"
+          />
+          <img
+            src="./images/partner_04.png"
+            alt="Yogs Baby"
+            class="partners__img"
+            width="255"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="social-link" href="#!"
+            ><img src="./images/icon-01.svg" alt="Facebook"
+          /></a>
+        </li>
+        <li class="footer__item">
+          <a class="social-link" href="#!"
+            ><img src="./images/icon-02.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li class="footer__item">
+          <a class="social-link" href="#!"
+            ><img src="./images/icon-03.svg" alt="Twitter"
+          /></a>
+        </li>
+        <li class="footer__item">
+          <a class="social-link" href="#!"
+            ><img src="./images/icon-04.svg" alt="VK"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="footer__navbar-list">
+        <li class="footer__item">
+          <a class="footer__link" href="#about">About us</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#news">News</a>
+        </li>
+        <li class="footer__item"><a class="footer__link" href="#!">Help</a></li>
+        <li class="footer__item">
+          <a class="footer__link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+      <p class="footer__text">&copy; 2025 Private Kindergarten</p>
+    </footer>
+  </body>
+</html>

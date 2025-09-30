@@ -1,0 +1,79 @@
+.quote__section {
+  background-color: #fff;
+  padding: 10rem 16.5rem;
+}
+.quote__container {
+  border-radius: 2.4rem;
+  padding: 8rem 9.5rem;
+
+  background: #f7f8fa;
+}
+.quote__img {
+  display: block;
+  width: 6.4rem;
+  height: 6.4rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+}
+.quote__text {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1.12;
+  text-align: center;
+  color: #000;
+  margin-bottom: 3.2rem;
+}
+.quote__author {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-style: normal;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .quote__section {
+    padding: 10rem 14.5rem;
+  }
+
+  .quote__text {
+    font-size: 4rem;
+  }
+
+  .quote__img {
+    width: 5.4rem;
+    height: 5.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote__section {
+    padding: 10rem 12.5rem;
+  }
+
+  .quote__text {
+    font-size: 3rem;
+  }
+
+  .quote__img {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .quote__section {
+    padding: 10rem 10rem;
+  }
+
+  .quote__text {
+    font-size: 2rem;
+  }
+
+  .quote__img {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+}

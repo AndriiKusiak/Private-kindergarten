@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: "Stem", sans-serif;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  background-color: lightgray;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+}
