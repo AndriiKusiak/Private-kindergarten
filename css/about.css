@@ -89,12 +89,15 @@
 }
 
 @media (max-width: 450px) {
+  .about__content small {
+    margin-bottom: 1rem;
+  }
   .about__content p {
     font-size: 2.5rem;
   }
   .about__item {
     display: flex;
-    padding-top: 1rem;
+    padding-top: 5rem;
     padding-left: 8rem;
     padding-right: 8rem;
   }
