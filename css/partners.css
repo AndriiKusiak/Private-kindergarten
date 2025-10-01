@@ -75,3 +75,8 @@
     padding-top: 6rem;
   }
 }
+@media (max-width: 576px) {
+  .partners__grid img {
+    padding-bottom: 2rem;
+  }
+}

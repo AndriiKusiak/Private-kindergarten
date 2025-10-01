@@ -70,4 +70,11 @@
   .extra-img {
     max-width: 45rem;
   }
+  .extra__subtitel {
+    font-size: 3rem;
+  }
+
+  .extra__card span {
+    font-size: 2.3rem;
+  }
 }
