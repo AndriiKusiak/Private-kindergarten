@@ -87,3 +87,12 @@
     padding-bottom: 5rem;
   }
 }
+
+@media (max-width: 450px) {
+  .about__item {
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}

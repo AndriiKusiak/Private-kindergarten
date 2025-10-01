@@ -20,6 +20,12 @@ html {
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+}
+
 body {
   font-family: "Stem", sans-serif;
   max-width: 144rem;

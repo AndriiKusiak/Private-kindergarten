@@ -256,3 +256,9 @@ input:not(:last-child) {
     padding: 50px 50px 20px 50px;
   }
 }
+
+@media (max-width: 450px) {
+  .nav__list {
+    padding: 40px 50px 20px 50px;
+  }
+}
