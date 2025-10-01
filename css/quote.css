@@ -77,3 +77,18 @@
     height: 3.4rem;
   }
 }
+
+@media (max-width: 450px) {
+  .quote__section {
+    padding: 5rem;
+  }
+  .quote__container {
+    padding: 5rem 5rem;
+  }
+  .quote__img {
+    margin-bottom: 1.5rem;
+  }
+  .quote__text {
+    margin-bottom: 1.5rem;
+  }
+}

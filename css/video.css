@@ -29,8 +29,8 @@
 }
 .video__flex {
   position: absolute;
-  bottom: 8rem;
-  left: 16.5rem;
+  bottom: 10%;
+  left: 10%;
 }
 .video__titel {
   font-weight: 700;
@@ -44,4 +44,27 @@
   font-size: 1.8rem;
   line-height: 1.33;
   color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 768px) {
+  .video__titel {
+    font-size: 3.8rem;
+    margin-bottom: 1.4rem;
+  }
+  .video__flex {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .video__titel {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .video__text {
+    font-size: 1.4rem;
+  }
 }

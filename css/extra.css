@@ -56,3 +56,18 @@
   text-align: center;
   color: #fff;
 }
+
+@media (max-width: 450px) {
+  .extra-section {
+    padding: 5rem;
+  }
+  .extra__titel {
+    font-size: 6rem;
+  }
+  .extra__text {
+    margin-bottom: 4rem;
+  }
+  .extra-img {
+    max-width: 45rem;
+  }
+}

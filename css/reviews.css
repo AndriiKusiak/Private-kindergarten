@@ -94,3 +94,17 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 450px) {
+  .reviews__section {
+    padding: 5rem;
+  }
+  .rewies__titel {
+    font-size: 5.4rem;
+    margin-bottom: 3.5rem;
+  }
+  .reviews-text {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+}
