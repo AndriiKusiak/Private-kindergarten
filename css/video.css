@@ -19,7 +19,8 @@
   padding: 2.8rem 3.1rem;
   border-radius: 50%;
   box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.1);
-  transition: all 0.3;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .video-btn:focus,
