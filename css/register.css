@@ -172,7 +172,18 @@ input[type="radio"]:checked + .register-form__label::before {
   .register__container {
     padding: 2rem;
   }
+  .register__text {
+    font-size: 2.5rem;
+  }
+  .register-form__label {
+    font-size: 3rem;
+  }
   .register__btn {
     margin-top: 3rem;
+    font-size: 3rem;
+  }
+
+  .conditions__paragr {
+    font-size: 2rem;
   }
 }
